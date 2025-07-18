@@ -1,0 +1,15 @@
+# Ignore compiled classes
+*.class
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# Build folders
+bin/
+target/
+
+# OS
+.DS_Store
+Thumbs.db
