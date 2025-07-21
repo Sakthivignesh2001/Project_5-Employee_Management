@@ -14,6 +14,6 @@ public class GetAllEmployeeDetailsPage {
 		if (employeeDetails != null)
 			employeeDetails.forEach(System.out::println);
 		else
-			System.out.println("No employee Record is available please add new employee details..!");
+			System.out.println("NO EMPLOYEE RECORD IS AVAILABLE PLEASE ADD NEW EMPLOYEE DETAILS..!");
 	}
 }

@@ -17,7 +17,7 @@ public class GetEmployeeDetailsByIdPage {
 		if(employee != null) {
 			System.out.println(employee);
 		} else {
-			System.out.println("Employee not found");
+			System.out.println("OOPS, EMPLOYEE RECORD NOT FOUND, ENTER VALID ID");
 		}
 	}
 	

@@ -15,9 +15,9 @@ public class DeleteEmployeeDetailsByIdPage {
 		int id = scanner.nextInt();
 		String status = employeeService.deleteEmployeeDetailsById(id);
 		if ("success".equalsIgnoreCase(status)) {
-			System.out.println("Employee details has been deleted successfully..!");
+			System.out.println("EMPLOYEE DETAILS HAS BEEN DELETED SUCCESSFULLY..!");
 		} else {
-			System.out.println("Oops! Employee details deletion operation failed..!");
+			System.out.println("OOPS! EMPLOYEE DETAILS DELETION OPERATION FAILED..!");
 		}
 	}
 }

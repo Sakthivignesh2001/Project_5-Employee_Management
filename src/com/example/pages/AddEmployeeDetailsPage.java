@@ -44,9 +44,9 @@ public class AddEmployeeDetailsPage {
 
 		String status = employeeService.addNewEmployeeDetails(employee);
 		if (status.equalsIgnoreCase("success")) {
-			System.out.println("Employee Details saved successfully..!");
+			System.out.println("EMPLOYEE DETAILS SAVED SUCCESSFULLY..!");
 		} else {
-			System.out.println("Oops! Employee Details insertion failed.");
+			System.out.println("OOPS! EMPLOYEE DETAILS INSERTION FAILED.");
 		}
 	}
 }

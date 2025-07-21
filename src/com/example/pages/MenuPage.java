@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MenuPage {
 
-	public static void displayMenu() {
+	public static void displayMenu() throws Exception {
 		MenuPage menuPage = new MenuPage();
 
 		while (true) {
@@ -19,6 +19,7 @@ public class MenuPage {
 				AddEmployeeDetailsPage.addNewEMployeeDetails();
 				break;
 			case 3:
+				UpdateEmployeeDetailsByIdPage.updateEmployeeDetails();
 				break;
 			case 4:
 				DeleteEmployeeDetailsByIdPage.deleteEmployeeDetailsById();
@@ -28,6 +29,7 @@ public class MenuPage {
 				break;
 			case 0:
 				System.out.println("******* Thanks for using the application *****");
+				System.exit(0);
 				break;
 			default:
 				System.out.println("Invalid option please try agin with valid options...");
